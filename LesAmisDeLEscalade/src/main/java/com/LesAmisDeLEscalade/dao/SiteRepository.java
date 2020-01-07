@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.LesAmisDeLEscalade.entities.Site;
 
 @Repository
-
 public interface SiteRepository extends JpaRepository<Site,Long> {
 
 }
